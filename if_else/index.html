@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="age">Digite sua Idade:</label>
+    <input type="number" name="age" id="age">
+    <div id=res>
+
+    </div>
+    <input type="button" value="enviar" onclick="enviar()">
+
+    <script>
+        function enviar(){
+        var ageinput=document.querySelector('#age').value
+        var age=(parseFloat(ageinput))
+        if (age < 18 && age>=0){
+            res.innerHTML=(`Não pode dirigir`)
+        }
+        else if(age>130 || age<0){
+            res.innerHTML=(`Entre com uma idade válida`)
+        }
+        else{
+            res.innerHTML=(`Pode dirigir`)
+        }
+    }
+    </script>
+</body>
+</html>
