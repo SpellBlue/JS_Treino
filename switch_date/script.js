@@ -1,7 +1,7 @@
-var dia= new Date()
-var sem= dia.getDay()
-var hour= dia.getHours()
-var minute= dia.getMinutes()
+let dia= new Date()
+let sem= dia.getDay()
+let hour= dia.getHours()
+let minute= dia.getMinutes()
 switch (sem){
     case 0:
         data.innerHTML=(`Domingo`)

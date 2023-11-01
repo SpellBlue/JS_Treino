@@ -1,6 +1,6 @@
 function enviar(){
-    var ageinput=document.querySelector('#age').value
-    var age=(parseFloat(ageinput))
+    let ageinput=document.querySelector('#age').value
+    let age=(parseFloat(ageinput))
     if (age < 18 && age>=0){
         res.innerHTML=(`Não pode dirigir`)
     }
