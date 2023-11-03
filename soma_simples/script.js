@@ -3,3 +3,4 @@ function somar(){
     let num2=document.querySelector('#num2').value
     res.innerHTML= (parseInt(num1) + parseInt(num2))
 }
+
