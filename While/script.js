@@ -1,6 +1,10 @@
-let numa = document.querySelectorAll('#cont').value
-let cont=0
 function contar(){
-    for(cont < numa){
+    let cont=0
+    let res = document.querySelector('#res')
+    let numa = parseInt(document.querySelector('#cont').value)
+    res.innerHTML=''
+    while(cont < numa){
+        res.innerHTML+=cont+1+'<br>'
+        cont++
     }
 }
