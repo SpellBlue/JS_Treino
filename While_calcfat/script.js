@@ -7,6 +7,9 @@ function calcular(){
     else if(tar > 170){
         res.innerHTML=('Número Infinito')
     }
+    else if(isNaN(tar)){
+        res.innerHTML=('Número Inválido')
+    }
     else{
         while(vzs>=1){
             tar*=vzs
