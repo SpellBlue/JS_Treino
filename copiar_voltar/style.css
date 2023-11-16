@@ -1,0 +1,69 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#box1,#box2{
+    background-color: rgb(218, 218, 218);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    height: 420px;
+    display: inline-block;
+}
+#box2{
+    position: absolute;
+    left: 500px;
+}
+div{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+.curso:hover{
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+.selecionado{
+    background-color: black;
+    color: white;
+}
+
+#press,#voltar{
+    position: absolute;
+    color: white;
+    background-color: rgb(7, 7, 138);
+    padding: 20px 35px;
+    border-radius: 20px;
+    border: none;
+}
+#press{
+    bottom: 70%;
+    left: 373px;
+}
+#voltar{
+    bottom: 60%;
+    left: 373px;
+}
+#press:hover{
+    background-color: green;
+    cursor: pointer;
+}
+#voltar:hover{
+    background-color: red;
+    cursor: pointer;
+}
