@@ -49,6 +49,15 @@ div{
     border-radius: 20px;
     border: none;
 }
+#press{
+    top: 150px;
+    left: 373px;
+}
+
+#voltar{
+    top: 300px;
+    left: 373px;
+}
 
 #press:hover{
     background-color: green;
