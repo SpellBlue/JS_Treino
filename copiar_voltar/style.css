@@ -5,8 +5,6 @@
 }
 main{
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
 }
 #box1,#box2{
@@ -51,14 +49,7 @@ div{
     border-radius: 20px;
     border: none;
 }
-#press{
-    bottom: 70%;
-    left: 373px;
-}
-#voltar{
-    bottom: 60%;
-    left: 373px;
-}
+
 #press:hover{
     background-color: green;
     cursor: pointer;
@@ -66,4 +57,19 @@ div{
 #voltar:hover{
     background-color: red;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #box2{
+        display: block;
+        left: 0;
+    }
+    #press{
+        margin-bottom: 10px;
+    }
+    #press,#voltar{
+        display: block;
+        position: relative;
+        margin-left: 40%;
+}
 }
