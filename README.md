@@ -10,6 +10,6 @@ https://spellblue.github.io/JS_Treino/for/ - pega um número do usuário e o esc
 
 https://spellblue.github.io/JS_Treino/switch_date/ - Mostra o dia da semana e a hora
 
-https://spellblue.github.io/JS_Treino/while_calcfat/ - Faz o fatorial do número inserido pelo usuário
+https://spellblue.github.io/JS_Treino/While_calcfat/ - Faz o fatorial do número inserido pelo usuário
 
 https://spellblue.github.io/JS_Treino/copiar_voltar/ - Copia divs de uma caixa para a outra e volta através de botões
