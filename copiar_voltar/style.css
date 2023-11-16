@@ -69,6 +69,10 @@ div{
 }
 
 @media only screen and (max-width: 600px) {
+    #box1,#box2{
+        width: 250px;
+        margin: 10px;
+    }
     #box2{
         display: block;
         left: 0;
@@ -77,8 +81,11 @@ div{
         margin-bottom: 10px;
     }
     #press,#voltar{
+        text-align: center;
         display: block;
         position: relative;
-        margin-left: 40%;
+        margin-left: 29%;
+        top: 0;
+        left: 0;
 }
 }
