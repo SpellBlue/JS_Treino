@@ -32,10 +32,6 @@ div{
     border-radius: 10px;
     display: flex;
 }
-.curso:hover{
-    background-color: rgb(85, 85, 85);
-    cursor: pointer;
-}
 .selecionado{
     background-color: black;
     color: white;
@@ -59,15 +55,6 @@ div{
     left: 373px;
 }
 
-#press:hover{
-    background-color: green;
-    cursor: pointer;
-}
-#voltar:hover{
-    background-color: red;
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 600px) {
     #box1,#box2{
         width: 250px;
@@ -87,5 +74,19 @@ div{
         margin-left: 29%;
         top: 0;
         left: 0;
+    }
 }
+    @media screen and (min-width: 600px) {
+    .curso:hover{
+        background-color: rgb(85, 85, 85);
+        cursor: pointer;
+    }
+    #press:hover{
+        background-color: green;
+        cursor: pointer;
+    }
+    #voltar:hover{
+        background-color: red;
+        cursor: pointer;
+    }
 }
