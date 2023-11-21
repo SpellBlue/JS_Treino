@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+#box1{
+    background-color: rgb(218, 218, 218);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    height: 420px;
+    display: inline-block;
+}
+div{
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    #box1,#box2{
+        width: 250px;
+        margin: 10px;
+    }
+}
+    @media screen and (min-width: 600px) {
+    .curso:hover{
+        background-color: rgb(85, 85, 85);
+        cursor: pointer;
+    }
+}
